@@ -83,6 +83,9 @@ web_modules/
 .cache
 .parcel-cache
 
+# Pacakge build output
+dist
+
 # Next.js build output
 .next
 out
@@ -122,9 +125,21 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+# Editors
+.vscode
+.idea
+*.iml
+
 # yarn v2
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# ignore yarn.lock
+yarn.lock
